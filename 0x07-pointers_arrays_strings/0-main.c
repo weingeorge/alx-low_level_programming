@@ -2,18 +2,18 @@
 #include <stdio.h>
 
 /**
- * The simple_print_buffer prints the buffer in hexa
- * The buffer however is the address of memory to print
- * Then the size is the size of the memory to print
+ * simple_print_buffer - prints out the buffer in hexa
+ * @buffer: is the address of memory to print
+ * @size: isthe size of the memory to print
  *
- * Return: Always nothing.
+ * Return: Nothing.
  */
 void simple_print_buffer(char *buffer, unsigned int size)
 {
-	unsigned int i;
+        unsigned int i;
 
-	i = 0;
-	while (i < size)
+        i = 0;
+        while (i < size)
         {
                 if (i % 10)
                 {
