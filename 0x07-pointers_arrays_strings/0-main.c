@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * simple_print_buffer - prints out the buffer in hexa
