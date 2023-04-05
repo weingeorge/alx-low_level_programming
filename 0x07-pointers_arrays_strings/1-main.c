@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * simple_print_buffer - is used to display the contents of a buffer in hexadecimal format
- * @buffer: refers to the address in memory of the buffer to be printed.
- * @size: indicates the amount of memory, in bytes, to be printed by the function.
+ * simple_print_buffer - prints buffer in hexa
+ * @buffer: the address of memory to print
+ * @size: the size of the memory to print
  *
  * Return: Nothing.
  */
