@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _print_rev_recursion - is a recursive function in C that prints a given string in reverse order
- * @s:  prints the string character by character using recursion
+ * _print_rev_recursion - prints a given string in reverse order
+ * @s: prints the string character
  */
 void _print_rev_recursion(char *s)
 {
